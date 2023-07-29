@@ -1,37 +1,27 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
-
+import Calculator from "../assets/portfolio/Calculator.png";
+import to_do_list from "../assets/portfolio/To_do_list.png";
+import searching from "../assets/portfolio/Searching.png";
+import weather from "../assets/portfolio/Weather.png";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: Calculator,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: to_do_list,
     },
     {
       id: 3,
-      src: navbar,
+      src: searching,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: weather,
     },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
-    },
+   
   ];
 
   return (
@@ -56,10 +46,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className=" px-2 py-2 m-2 duration-100 hover:scale-105">
                   Code
                 </button>
               </div>
